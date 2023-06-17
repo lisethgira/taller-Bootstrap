@@ -215,30 +215,33 @@
     <hr>
     <div>
         <style>
-            .btn-pink{
+            .btn-pink {
                 background-color: #f06292;
                 color: #fff;
                 border: none;
                 box-shadow: 0px 2px 0px #d81b60;
             }
-            .btn-pink:hover, .btn-pink:focus{
+
+            .btn-pink:hover,
+            .btn-pink:focus {
                 background-color: #d81b60;
                 color: #fff;
                 box-shadow: #ad1457;
                 border: #000;
             }
-            
-            .btn-pink:active{
+
+            .btn-pink:active {
                 background-color: #c2185b;
                 color: #fff;
                 box-shadow: none;
                 transform: translateY(2px);
             }
-            .jumbotron{
+
+            .jumbotron {
                 width: 450px;
                 margin: 0 auto;
                 position: relative;
-                box-shadow: 0px 0px 10px rgba(0,0,0,0.10);
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.10);
                 background-color: #efeff1;
             }
         </style>
@@ -247,7 +250,7 @@
             <br>
             <br>
             <br>
-            <h3 >Iniciar Sesión</h3>
+            <h3>Iniciar Sesión</h3>
             <form class="my-4">
                 <div class="form-group my-4">
                     <label for="email">Correo Electrónico:</label>
@@ -257,7 +260,7 @@
                     <label for="password">Contraseña:</label>
                     <input type="password" class="form-control" id="password" placeholder="Ingresa tu contraseña">
                 </div>
-               
+
                 <button type="submit" class="btn btn-pink">Iniciar Sesión</button>
                 <button type="submit" class="btn btn-pink">Registrarse</button>
                 <br>
@@ -274,8 +277,26 @@
         </h1>
     </center>
     <hr>
-    <div>
+    <div class=" container-fluid p-5 bg- bg-primary text-white text-center">
+        <h1> boostrap demo page</h1>
+        <p>realizar taller boostrap</p>
+    </div>
 
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-6">
+
+                <h3>columna 1</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisici</p>
+            </div>
+
+            <div class="col-sm-6">
+                <h3>columna 2</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio laborum cum non.</p>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+        </div>
     </div>
     <hr>
     <br>
@@ -285,7 +306,118 @@
         </h1>
     </center>
     <hr>
-    <div>
+    <div class="container">
+        <h1>Ejemplo de botones en Bootstrap</h1>
+        <p>Bootstrap proporciona diferentes tipos de botones que puedes utilizar en tu sitio web. A continuación se
+            muestran algunos de ellos:</p>
+
+
+
+        <button type="button" class=" btn btn-default">boton por defectos </button>
+        <p>este es un boton por defecto. utiliza la clase <code>.btn-default.</code></p>
+
+        <button type="button" class=" btn btn-primary">boton primario </button>
+        <p>este es un boton primario. utiliza la clase <code>.btn-primary.</code></p>
+
+        <button type="button" class=" btn btn-success">boton de exito </button>
+        <p>este es un boton de exito . utiliza la clase <code>.btn-success.</code></p>
+
+        <button type="button" class=" btn btn-info">boton de informacion</button>
+        <p>este es un boton de informacion . utiliza la clase <code>.btn-info.</code></p>
+
+        <button type="button" class=" btn btn-warning">boton de advertencia </button>
+        <p>este es un boton de adventencia . utiliza la clase <code>btn-warning</code></p>
+
+        <button type="button" class=" btn btn-danger">boton de peligro </button>
+        <p>este es un boton de peligro . utiliza la clase <code>.btn-danger</code></p>
+
+        <a href="#" class=" btn btn-link">boton enlace</a>
+        <p>este es un boton enlace sin estilo . utiliza la clase <code>.btn-link.</code></p>
+
+        <button type="button" class=" btn btn-primary btn-lg">boton grande </button>
+        <p>este es un boton grande. utiliza la clase <code>.btn-lg.</code></p>
+
+        <button type="button" class=" btn btn-primary">boton normal </button>
+        <p>este es un boton normal </p>
+
+        <button type="button" class=" btn btn-primary btn-sm">boton pequeño</button>
+        <p>este es un boton pequeño. utiliza la clase <code>.btn-sm</code>.</p>
+
+        <button type="button" class=" btn btn-primary btn-xs">boton extra pequeño </button>
+        <p>este es un boton extra pequeño . utiliza la clase <code>.btn-xs.</code></p>
+
+        <button type="button" class=" btn btn-primary" disabled>boton desactivado </button>
+        <p>este es un boton desactivado . utiliza el atributo <code>disabled</code></p>
+
+        <button type="button" class=" btn btn-primary active">boton activado </button>
+        <p>este es un boton activado . utiliza la clase <code>active</code></p>
+
+        <button type="button" class=" btn btn-primary">
+            <samp class="glyphicon glyphicon-search"></samp> buscar
+        </button>
+        <p>este es un boton con texto y un icono. utiliza la clase <code>glyphicon</code> y la clase
+            <code>glyphicon-search</code> para agregar el icono de busqueda
+        </p>
+
+        <button type="button" class=" btn btn-primary">
+            <samp class="glyphicon glyphicon-envelope"></samp> enviar correo
+        </button>
+        <p>este es un boton con texto y un icono. utiliza la clase <code>glyphicon</code> y la clase
+            <code>glyphicon-envelope</code> para agregar el icono de correo
+        </p>
+
+        <a href="#" class="btn btn-primary">boton con etiquta de ancla</a>
+        <p>este es un boton con etiqueta de ancla. utiliza la clase <code>btn</code> y la clase <code>btn-primary</code>
+            para darle estilo</p>
+
+        <button type="button" class="btn btn-primary btn-block">boton bloqueo</button>
+        <p>este es un boton bloqueo. utiliza la clase <code>btn-block</code> para hacer que el boton ocuype todo el
+            ancho del contenedor</p>
+
+        <div class="btn-group" role="group" aria-label="botones con esatdo activado y desactivado">
+            <button type="button" class=" btn btn-primary active">activado</button>
+            <button type="button" class=" btn btn-primary">desactivado</button>
+        </div>
+
+        <p>estos son botones agrupados con estados activo y desactivado. utiliza la clase <code>btn-group</code> para
+            agrupar los botones y la clase <code>active</code> para indicar el estado activo</p>
+
+
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                boton despegable <spam class="caret"></spam>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">opcion 1</a></li>
+                <li><a href="#">opcion 2</a></li>
+                <li><a href="#">opcion 3</a></li>
+            </ul>
+        </div>
+
+        <p>este es un boton despegable utiliza la clase <code>btn-group</code> para agrupar el boton y la lista
+            despegable y la clase<code>dropdown-toggle</code> para indicar que es un boton despegable ademas utiliza el
+            atributo <code>data-toggle="dropdown"</code> paara permitir que el boton despliegue la lista, y la
+            clase<code>dropdown-menu</code> para indicar que es una lista despegable</p>
+
+        <div class="btn-group">
+            <button type="button" class=" btn btn-primary">boton con menu despegable</button>
+            <button type="button" class=" btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">
+                <span class="caret"></span>
+            </button>
+
+            <ul class="dropdown-menu">
+                <li><a href="#">opcion 1</a></li>
+                <li><a href="#">opcion 2</a></li>
+                <li><a href="#">opcion 3</a></li>
+            </ul>
+        </div>
+        <p>Este es un botón con un menú desplegable. Utiliza la clase <code>.btn-group</code> para agrupar el botón y el
+            botón desplegable, y la clase <code>.dropdown-toggle</code> para indicar que es un botón desplegable.
+            Además,
+            utiliza el atributo <code>data-toggle="dropdown"</code> para permitir que el botón despliegue la lista, y la
+            clase <code>.dropdown-menu</code> para indicar que es una lista desplegable.</p>
 
     </div>
     <hr>
@@ -296,7 +428,86 @@
         </h1>
     </center>
     <hr>
-    <div>
+    <div class="container">
+        <h1>Ejemplo de cuadros en Bootstrap</h1>
+        <p>Bootstrap proporciona diferentes tipos de cuadros que puedes utilizar en tu sitio web. A continuación se
+            muestran algunos de ellos:</p>
+        <!-- Cuadro por defecto -->
+        <div class="panel panel-default">
+            <div class="panel-heading">Cuadro por defecto</div>
+            <div class="panel-body">Este es un cuadro por defecto. Utiliza la clase <code>.panel-default</code>.</div>
+        </div>
+
+        <!-- Cuadro primario -->
+        <div class="panel panel-primary">
+            <div class="panel-heading">Cuadro primario</div>
+            <div class="panel-body">Este es un cuadro primario. Utilizala clase <code>.panel-primary</code>.</div>
+        </div>
+
+        <!-- Cuadro de éxito -->
+        <div class="panel panel-success">
+            <div class="panel-heading">Cuadro de éxito</div>
+            <div class="panel-body">Este es un cuadro de éxito. Utiliza la clase <code>.panel-success</code>.</div>
+        </div>
+
+        <div class="panel panel-info">
+            <div class="panel-heading">cuadro de informacion</div>
+            <div class="panel-body"> este es un cuadro de informacion utiliza la clase <code> panel-info</code></div>
+
+        </div>
+
+        <div class="panel panel-warning">
+            <div class="panel-heading">cuadro de advertencia</div>
+            <div class="panel-body"> este es un cuadro de advaertencia utiliza la clase <code> panel-warning</code>
+            </div>
+
+        </div>
+
+
+        <div class="panel panel-danger">
+            <div class="panel-heading">cuadro de peligro</div>
+            <div class="panel-body"> este es un cuadro de peligro utiliza la clase <code> panel-danger</code></div>
+
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">cuadro de encabezado</div>
+            <div class="panel-body"> este es un cuadro de encabezado utiliza la clase <code> panel-default</code>para el
+                cuadro y la clase <code>panel-heading</code>para el encabezado</div>
+
+        </div>
+
+
+        <div class="panel panel-default">
+            <div class="panel-body">este cuadro con un pie de pagina. utiliza la clase <code>panel-default</code>para el
+                cuadro y la clase <code>panel-footer</code> para el pie de pagina</div>
+            <div class="panel-footer"> pie de pagina</div>
+
+        </div>
+
+
+        <div class="panel panel-default">
+            <div class="panel-body"> este es un cuadro con cuerpo utiliza la clase <code> panel-info</code>para el
+                cuadro y la clase <code>panel-body</code>para el cuerpo</div>
+
+        </div>
+        <div class="panel panel-default panel-border">
+            <div class="panel-heading">Cuadro con borde</div>
+            <div class="panel-body">Este es uncuadro con un borde personalizado. Utiliza la clase
+                <code>.panel-default</code> para el cuadro y se ha creado una clase personalizada
+                <code>.panel-border</code> para agregar un borde con un estilo diferente al predeterminado.
+            </div>
+        </div>
+
+        <!-- Cuadro con borde y sombra -->
+        <div class="panel panel-default panel-border panel-shadow">
+            <div class="panel-heading">Cuadro con borde y sombra</div>
+            <div class="panel-body">Este es un cuadro con un borde y una sombra personalizados. Utiliza la clase
+                <code>.panel-default</code> para el cuadro y se han creado clases personalizadas
+                <code>.panel-border</code> y <code>.panel-shadow</code> para agregar un borde y una sombra con estilos
+                diferentes al predeterminado.
+            </div>
+        </div>
 
     </div>
     <hr>
@@ -307,8 +518,104 @@
         </h1>
     </center>
     <hr>
-    <div>
+    <div class="container">
+        <h1>Emplo de menu en Boostrap</h1>
+        <p>Boostrap proporciona diferentes tipps de munu que puedes utilizar en tu sitio web. a continuacion se muestran
+            algunos de ellos</p>
+        <!--Mennu de navegcion basico-->
 
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Sitio web</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--Barra de navegacion con pestañas-->
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+
+        <!--Menu de navegacion con pildoras-->
+        <ul class="nav nav-pills">
+            <li class="active"><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+
+        <!--Menu de navegacion con pildoras apliladas-->
+        <ul class="nav nav-pills nav-stacked">
+            <li class="active"><a href="#">Inicio</a></li>
+            <li><a href="#">Acerca de nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+
+        <!--Menu de navegacion con lista de desplegable-->
+        <div class="dropdown">
+            <button class="btn btn-defaul dropdown-toggle" type="button" data-toggle="dropdown">Menu
+                <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+                <li class="active"><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de nosotros</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+
+        <!--Menu de navegacion con barra de busqueda-->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Sitio web</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <div class="form-grup">
+                        <input text="text" class="form-control" placeholder="Buscar">
+                    </div>
+                    <button type="submit" class="btn btn-defaul">Buscar</button>
+                </form>
+            </div>
+        </nav>
+
+        <!--Menu de navegacion con barra de navegacion fija-->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Sitio web</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--Menu de navegacion con barra de navegacion fija en la parte inferior-->
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Sitio web</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de nosotros</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
     </div>
     <hr>
     <br>
@@ -318,8 +625,45 @@
         </h1>
     </center>
     <hr>
-    <div>
+    <div class="container">
+        <h1>Ejemplo de alertas en Bootstrap</h1>
+        <p>Bootstrap proporciona diferentes tipos de alertas que puedes utilizar en tu sitio web. A continuación se
+            muestran algunos de ellos:</p>
+        <!--Alerta de éxito-->
+        <div class="alert alert-success">
+            <strong>¡Éxito!</strong> Esta es una alerta de éxito. Utiliza la clase <code>.alert-success</code>.
+        </div>
 
+        <!--Alerta de información-->
+        <div class="alert alert-info">
+            <strong>Información:</strong> Esta es una alerta de información. Utiliza la clase <code>.alert-info</code>.
+        </div>
+
+        <!--Alerta de advertencia-->
+        <div class="alert alert-warning">
+            <strong>Advertencia:</strong> Esta es una alerta de advertencia. Utiliza la clase
+            <code>.alert-warning</code>.
+        </div>
+
+        <!--Alerta de peligro-->
+        <div class="alert alert-danger">
+            <strong>peligro:</strong> Esta es una alerta de peligro. Utiliza la clase <code>.alert-danger</code>.
+        </div>
+
+        <!--Alerta con ciere-->
+        <div class="alert alert-info alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>cierre:</strong> Esta es una alerta con cierre. Utiliza la clase <code>.alert-dismissible</code>
+            y un botón de cierre con la clase <code>.close</code> y el atributo <code>data-dismiss="alert"</code>.
+        </div>
+
+        <!--Alerta con enlace-->
+        <div class="alert alert-warning">
+            <strong>Enlace:</strong> Esta es una alerta con un enlace. Utiliza la clase <code>.alert-warning</code> y un
+            enlace con la
+            clase <code>.alert-link</code>.
+            <a href="#" class="alert-link">Haz clic aquí</a> para más información.
+        </div>
     </div>
     <hr>
     <br>
@@ -329,9 +673,53 @@
         </h1>
     </center>
     <hr>
-    <div>
-
+    <div class="container">
+        <h1>Ejemplo de menú con submenús en bootstrap</h1>
+        <p>Bootstrap proporciona una forma fácil de crear menús con súbmenus en tu sitio web. A continuación se muestra
+            un
+            ejemplo de cómo hacerlo:
+        </p>
+        <!--Menú de navegación con submenús-->
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Sitio web</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Inicio</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Productos <span
+                                    class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Producto 1</a></li>
+                                <li><a href="#">Producto 2</a></li>
+                                <li><a href="#">Producto 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Productos <span
+                                    class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Servicio 1</a></li>
+                                <li><a href="#">Servicio 2</a></li>
+                                <li><a href="#">Servicio 3</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Acerca de nosotros</a></li>
+                        <li><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </div>
+
+
     <hr>
     <br>
     <center>
@@ -341,7 +729,170 @@
     </center>
     <hr>
     <div>
+        <div class="h-100 p-5 text-blue bg-blue rounded-3">
+            <div class="p-3 bg-info text-dark border border-dark">
+                <h2>Arquitectura de software</h2>
+                <p>
+                    Existen diferentes arquitecturas de software que se puede utilizar para desarrollar aplicaciones.
+                    Cada
+                    arquitecctura tiene su propia ventaja y desventaja, es importante entenderlas antes de tomar una
+                    decision sobre cual utilizar.
+                </p>
+                <h2 class="mt-5">Arquitecturas monoliticas</h2>
+                <button type="button" class="btn btn-primary"
+                    onclick="alert('ventaja:facil de desarrollar y mantener')">
+                    ventajas
+                </button>
 
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-targe="#MyModal1">
+                    Desvantajas
+                </button>
+
+                <p>
+                    La arquitectura monolitica es una arquitectura tradicional en la cual toda la aplicacion se
+                    desarrolla y
+                    se despliega como una unica unidad. esta arquitectura es facil de desarrollar y mantener, ya que
+                    todo el
+                    codigo se encuentra en un solo lugar. sin embargo, tambien puede ser dificil de escalar y
+                    actualizar.
+                </p>
+
+                <div class="modal fade" id="MyModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLeabel">
+                                    Desventaja de la arquitectura monolitica:
+                                </h5>
+                                <button type="button" class="close" data-toggle="modal" data-targe="close">
+                                    <spam aria-hidden="true">&times;</spam>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <ul>
+                                    <li>
+                                        Es dificil escalar componentes especificos de la aplicacion
+                                    </li>
+                                    <li>
+                                        Es dificil actualizar componentes especificos de la aplicacion
+                                    </li>
+                                    <li>
+                                        La aplicacion entera puede caer si un componente llega a fallar
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="mt-5">Arquitectura de Microservicios</h2>
+            <button type="button" class="btn btn-primary"
+                onclick="alert('Ventaja: Permite una mayor escalabilidad y actualización de componentes individuales')">
+                Ventajas
+            </button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">
+                Desventajas
+            </button>
+            <p div class="row align-items-md-stretch">
+                La arquitectura de microservicios es una arquitectura en la cual la
+                aplicación se divide en pequeños servicios independientes que se
+                comunican entre sí. Esta arquitectura permite una mayor escalabilidad y
+                actualización de componentes individuales, pero puede ser más compleja
+                de desarrollar y mantener.
+            </p>
+            <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">
+                                Desventajas de la arquitectura de microservicios:
+                            </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <ul>
+                                <li>
+                                    La complejidad aumenta al tener que coordinar múltiples
+                                    servicios
+                                </li>
+                                <li>
+                                    La comunicación entre servicios puede ser costosa en términos
+                                    de rendimiento
+                                </li>
+                                <li>
+                                    La seguridad y el control de versiones pueden ser más
+                                    difíciles de gestionar
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                Cerrar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h2 class="mt-5">Arquitectura Serverless</h2>
+            <button type="button" class="btn btn-primary"
+                onclick="alert('Ventaja: Escalabilidad automática y sin necesidad de administración de servidores')">
+                Ventajas
+            </button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal3">
+                Desventajas
+            </button>
+            <p>
+                La arquitectura Serverless es una arquitectura en la cual el proveedor
+                de servicios en la nube se encarga de la administración de los
+                servidores y ofrece una escalabilidad automática. Esta arquitectura
+                puede ser muy eficiente en términos de costos y tiempo de desarrollo,
+                pero también puede tener algunas limitaciones en términos de
+                personalización y control.
+            </p>
+            <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">
+                                Desvantajas de la arquitectura serverless:
+                            </h5>
+                            <button type="button" class="close" data-toggle="modal" data-targe="close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <ul>
+                                <li>
+                                    La personalizacion puede ser limitada debido a la dependencia del proveedor de
+                                    servicios
+                                    en la nube
+                                </li>
+                                <li>
+                                    El rendimiento puede verse afectado por la latencia de la red
+                                </li>
+                                <li>
+                                    El costo puede aumentar con el uso de servicios adicionales
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                Cerrar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <hr>
     <br>
@@ -352,7 +903,153 @@
     </center>
     <hr>
     <div>
+        <div class="comntainer mt-5">
+            <h1 class="text-center">Arquitectura de software</h1>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card boddy">
+                            <h2 class="card-title">Arquitectura monolitica</h2>
+                            <button class="btn btn-primary"
+                                onclick="alert('ventaja: Facil de desarrollar y mantener')">Ventajas</button>
+                            <button class="btn btn-danger" data-toggle="modal"
+                                data-target="#monoliticaModal">Desvantajas</button>
+                            <p class="card-tex"> La arquitectura monoitica es una arquitectura tradicional en la
+                                cual la
+                                aplicacion se desarrolla y despliega en una unica unidad. esta arquitectura es
+                                facil de
+                                desarrollar y mnatener, ya que todo el codigo se encuentra en un solo lugar, sin
+                                embargo
+                                tambien puede ser dificil de escarlar y actualizar.</p>
 
+                        </div>
+                    </div>
+                </div>
+                <div class="cold-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title">Arquitectura de microservicios</h2>
+                            <button class="btn btn-primary"
+                                onclick="alert('ventaja: Permite una mayor escalabilidad y actualizacion de componentes individuales')">Ventajas</button>
+                            <button class="btn btn-danger" data-toggle="modal"
+                                data-target="#microserviciosModal">Desvantajas</button>
+                            <p class="card-tex"> La arquitectura de microservicios es una arquitectura por la
+                                cual la
+                                aplicacion se divide en pequeños servicios independientes que se comunican entre
+                                si.
+                                esta arquitectura perimite una mayor escalabilidad y actualizacion de
+                                componentes
+                                individuales, pero puede ser mas compleja de desarrollar y mantener.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cold-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="card-title">Arquitectura serverless</h2>
+                            <button class="btn btn-primary"
+                                onclick="alert('ventaja: Escallabilidad automatica y sin administrador de servidores')">Ventajas</button>
+                            <button class="btn btn-danger" data-toggle="modal"
+                                data-target="#microserviciosModal">Desvantajas</button>
+                            <p class="card-tex"> La arquitectura serverless es una arquitectura en la cual el
+                                proveedor
+                                de servicios en la nuve se encarga de la administracion de los servidores y
+                                ofrece una
+                                escalabilidad automatica. esta arquitectura puede ser muy eficiente en terminos
+                                de
+                                costos y tiempo de desarrollo, pero tambien puede tener unas limitaciones en
+                                terminos de
+                                personalizacion y control. </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Modal Monolitica-->
+        <div class="modal fade" id="monoliticaModal" tabindex="-1" role="dialog" aria-labelledby="monoliticaModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-titel" id="monoliticalModalLabel"> Desventajas de la Arquitectura
+                            Monolitica
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" arial-label="close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li>Es dificil escalar componentes especificos de la aplicacion</li>
+                            <li>Es dificil actualizar componentes espcificos de la aplicacion</li>
+                            <li>La aplicacion falla si un componente falla</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Modal Microservicios-->
+        <div class="modal fade" id="microserviciosModal" tabindex="-1" role="dialog"
+            aria-labelledby="microserviciosModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-titel" id="microserviciosModalLabel"> Desventajas de la Arquitectura de
+                            Microservicios</h5>
+                        <button type="button" class="close" data-dismiss="modal" arial-label="close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li>La complejidad aumenta al tener que coordinar muchos microservicios</li>
+                            <li>La comunicacion entre servicios puede ser costosa en terminos de rendimientos
+                            </li>
+                            <li>La seguridad y el control de versiones puede ser mas dificiles de gestionar</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Modal Serverless-->
+        <div class="modal fade" id="serverlessModal" tabindex="-1" role="dialog" aria-labelledby="serverlessModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-titel" id="serverlessModalLabel"> Desventajas de la Arquitectura
+                            Serverless
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" arial-label="close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <li>La personalizacion puede ser limitada debido a la dependencia del proveedor del
+                                servicio
+                                en la nube</li>
+                            <li>El rendimiento puede verse afectado por la latencia de la red</li>
+                            <li>El costo puede aumentar por el uso de servicios adicionales</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <hr>
     <br>
@@ -363,6 +1060,46 @@
     </center>
     <hr>
     <div>
+        <header>
+            <h1>Tipos de testing automatizado</h1>
+            <form id="busquedaInput">
+                <input stye="search" name="busqueda" placeholder="buscar...">
+                <button type="submit">Buscar</button>
+            </form>
+        </header>
+        <div class="container">
+            <div class="callapse navbar-collapse" id="temasMenu">
+                <nav class="navbar navbar-expand-lg navbar-light bg-ligth">
+                    <a class="navbar-brand" href="#">Menu</a>
+                    <div class="collapse navbar-collapse" id="temasMenu">
+                        <ul class="navbar-nav" id="temasMenu">
+                            <li class="nav-item active" id="tema1">Tema 1</li>
+                            <li class="nav-item active" id="tema2">Tema 2</li>
+                            <li class="nav-item active" id="tema3">Tema 3</li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="row">
+                <!--Contenido Principal-->
+                <div col-lg-8>
+                    <main>
+                        <section id="tema1Contenido" class="contenido">
+                            <h2>Tema 1</h2>
+                            <p>Contenido del tema 1</p>
+                        </section>
+                        <section id="tema2Contenido" class="contenido">
+                            <h2>Tema 2</h2>
+                            <p>Contenido del tema 2</p>
+                        </section>
+                        <section id="tema3Contenido" class="contenido">
+                            <h2>Tema 3</h2>
+                            <p>Contenido del tema 3</p>
+                        </section>
+                    </main>
+                </div>
+            </div>
+        </div>
 
     </div>
 
